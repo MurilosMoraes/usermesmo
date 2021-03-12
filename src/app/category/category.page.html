@@ -1,0 +1,108 @@
+<ion-content>
+  <div class="header">
+    <ion-icon [routerLink]="['../folder/inbox']" class="back" name="chevron-back-outline"></ion-icon>
+    <img class="logo" src="../../assets/logo-preto.png">
+    <ion-icon  [routerLink]="['../cart']" class="cart" name="cart-outline"></ion-icon>
+    <ion-menu-button class="menu"></ion-menu-button>
+  </div>
+
+  <div>
+    <ion-searchbar class="search"></ion-searchbar>
+  </div>
+
+  <div>
+    <select class="select">
+      <!-- <option value="Choose"> Choose Category </option>
+      <option value="english">English</option>
+      <option value="français">Français</option>
+      <option value="portugues">Português</option>
+      <option value="poslki">Polski</option>
+      <option value="italiano">Italiano</option> -->
+    </select>
+  </div>
+
+  <div>
+    <img class="publi" src="../../assets/publi.png" alt="">
+  </div>
+
+  <div class="container-product">
+    <ion-grid>
+      <ion-row>
+
+        <ion-col size="5">
+          <img class="img-product" src="../../assets/jackDaniels.png">
+        </ion-col>
+        <ion-col size="7">
+          <h1 class="name-product">
+            Jack Daniels
+          </h1>
+          <h2 class="price">
+            € 14,99
+          </h2>
+          <div class="flex">
+            <div>
+              <ion-button class="heart-selected"><ion-icon name="heart-outline"></ion-icon></ion-button>
+            </div>
+            <div>
+              <ion-button [routerLink]="['../cart']" class="cart-btn"><ion-icon name="cart-outline"></ion-icon></ion-button>
+            </div>
+          </div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+
+  <div class="container-product">
+    <ion-grid>
+      <ion-row>
+
+        <ion-col size="5">
+          <img class="img-product" src="../../assets/jackDaniels.png">
+        </ion-col>
+        <ion-col size="7">
+          <h1 class="name-product">
+            Jack Daniels
+          </h1>
+          <h2 class="price">
+            € 14,99
+          </h2>
+          <div class="flex">
+            <div>
+              <ion-button class="heart"><ion-icon name="heart-outline"></ion-icon></ion-button>
+            </div>
+            <div>
+              <ion-button [routerLink]="['../cart']" class="cart-btn"><ion-icon name="cart-outline"></ion-icon></ion-button>
+            </div>
+          </div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+
+  <div class="container-product">
+    <ion-grid>
+      <ion-row>
+
+        <ion-col size="5">
+          <img class="img-product" src="../../assets/jackDaniels.png">
+        </ion-col>
+        <ion-col size="7">
+          <h1 class="name-product">
+            Jack Daniels
+          </h1>
+          <h2 class="price">
+            € 14,99
+          </h2>
+          <div class="flex">
+            <div>
+              <ion-button class="heart"><ion-icon name="heart-outline"></ion-icon></ion-button>
+            </div>
+            <div>
+              <ion-button [routerLink]="['../cart']" class="cart-btn"><ion-icon name="cart-outline"></ion-icon></ion-button>
+            </div>
+          </div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+</ion-content>

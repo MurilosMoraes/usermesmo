@@ -1,0 +1,62 @@
+<ion-content>
+  <div class="header">
+    <ion-icon [routerLink]="['../cart']" class="back" name="chevron-back-outline"></ion-icon>
+    <img class="logo" src="../../assets/logo-preto.png">
+    <ion-icon [routerLink]="['../cart']" class="cart" name="cart-outline"></ion-icon>
+    <ion-menu-button class="menu"></ion-menu-button>
+  </div>
+  <div>
+    <h1 class="title">Wait for that OTP</h1>
+  </div>
+  <div>
+    <p class="sub">Interactively expedite revolutionary ROI after <br> bricks-and-clicks alignments.</p>
+  </div>
+
+  <div class="container">
+    <ion-grid>
+      <ion-row>
+        <ion-col size="2">
+        </ion-col>
+        <ion-col size="2">
+          <ion-input maxlength="1" class="input"></ion-input>
+        </ion-col>
+        <ion-col size="2">
+          <ion-input maxlength="1" class="input"></ion-input>
+        </ion-col>
+        <ion-col size="2">
+          <ion-input maxlength="1" class="input"></ion-input>
+        </ion-col>
+        <ion-col size="2">
+          <ion-input maxlength="1" class="input"></ion-input>
+        </ion-col>
+        <ion-col size="2">
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+
+  <div>
+    <p class="sub">
+      Waiting the password received <br> by SMS
+    </p>
+  </div>
+
+  <div>
+    <img class="wait" src="../../assets/wait.png" alt="">
+  </div>
+
+  <div class="flex">
+    <div>
+      <p class="txt-resend">
+        Have you not received an OTP?
+      </p>
+    </div>
+    <div class="btn-resend">
+      Send again
+    </div>
+  </div>
+
+  <div>
+    <ion-button [routerLink]="['../status-payment']" class="btn">Continue</ion-button>
+  </div>
+</ion-content>

@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ion-content {
+  --background: #fff;
+}
+
+.header {
+  position: relative;
+}
+
+
+.back {
+  position: absolute;
+  left: 20px;
+  top: 30px;
+  color: #2D0C57;
+  font-size: 24px;
+}
+
+
+.cart {
+  top: 27px;
+  position: absolute;
+  right: 60px;
+  color: #000;
+  font-size: 30px;
+}
+
+.logo {
+  width: 30%;
+  margin-top: 30px;
+  margin-left: 35%;
+}
+
+.menu {
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  color: #000;
+  font-size: 30px;
+}
+
+.title {
+  margin-top: 30px;
+  margin-left: 20px;
+  font-size: 24px;
+  font-weight: 500;
+  color: #000;
+}
+
+
+.img-cart {
+  width: 40px;
+  justify-content: center;
+  object-fit: cover;
+  margin-top: 5px;
+  margin-left: 5px;
+
+}
+
+.container-cart {
+  border: 1px solid #FF0C0C;
+  position: relative;
+  height: 80px;
+  margin-top: 20px;
+  width: 94%;
+  margin-left: 3%;
+  background-color: #F6F6F8;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.name {
+  font-size: 15px;
+  font-weight: 500;
+  color: #252B35;
+
+}
+
+.qtd {
+  font-size: 11px;
+  font-weight: 500;
+  color: #596273;
+}
+
+.qtd-products {
+  border-radius: 10px;
+  border: 1px solid #818A99;
+  padding: 1px 2px;
+  color: #252B35;
+  text-align: center;
+  font-size: 15px;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 5px;
+
+}
+
+.price-products {
+  border-radius: 10px;
+  border: 1px solid #818A99;
+  padding: 1px 8px;
+  color: #252B35;
+  text-align: center;
+  font-size: 15px;
+  width: 80%;
+  margin-top: 5px;
+}
+
+.x {
+  text-align: center;
+  width: 15px;
+  height: 15px;
+  font-size: 10px;
+  border-radius: 100px;
+  background-color: #FFD421;
+  color: #fff;
+  position: absolute;
+  right: -5px;
+  top: -5px;
+}
+
+.total {
+  margin-top: 60px;
+  border: 1px solid #BBC4CE;
+  border-radius: 10px;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 94%;
+  margin-left: 3%;
+  background-color: #F6F6F8;
+  padding: 10px;
+}
+
+.title-total {
+  font-size: 20px;
+  font-weight: 500;
+  color: #000;
+}
+
+.sub-total {
+  font-size: 11px;
+  font-weight: 500;
+  color: #596273;
+}
+
+.price-total {
+  font-size: 20px;
+  font-weight: 500;
+  color: #000;
+}
+
+
+.btn {
+    margin-top: 40px;
+    color: #000000;
+    width: 80%;
+    height: 55px;
+    margin-left: 10%;
+  }
+  
+  ion-button {
+    --background: #ffd421;
+  }
+  

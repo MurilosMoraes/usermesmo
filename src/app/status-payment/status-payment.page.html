@@ -1,0 +1,74 @@
+<ion-content>
+
+  <div class="header">
+    <ion-icon [routerLink]="['../cart']" class="back" name="chevron-back-outline"></ion-icon>
+    <img class="logo" src="../../assets/logo-preto.png">
+    <ion-icon [routerLink]="['../cart']" class="cart" name="cart-outline"></ion-icon>
+    <ion-menu-button class="menu"></ion-menu-button>
+  </div>
+
+   <!-- SUCCESS -->
+
+  <div *ngIf="success">
+
+    <div>
+      <h1 class="title">Payment Successful</h1>
+    </div>
+    <div>
+      <p class="sub">Interactively expedite revolutionary ROI after <br> bricks-and-clicks alignments.</p>
+    </div>
+    <div>
+      <img class="img-status" src="../../assets/yes.png" alt="">
+    </div>
+
+    <div>
+      <h1 class="text-p">The amount of € 34.99 will be <br> charged to the selected payment <br> source</h1>
+    </div>
+
+    <div>
+      <p class="description"> <span>Declaration:</span> scale turnkey outsourcing after multidisciplinary leadership
+        skills.
+        Interactively engineer 24/7 paradigms vis-a-vis cross functional value. Conveniently streamline distinctive
+        bandwidth through vertical imperatives. Progressively drive. </p>
+    </div>
+
+    <div>
+      <ion-button [routerLink]="['../trinkegeld']" class="btn">Reorder</ion-button>
+    </div>
+
+  </div>
+
+
+     <!-- DECLINED -->
+
+
+  <div *ngIf="declined">
+
+    <div>
+      <h1 class="title">The payment was declined</h1>
+    </div>
+    <div>
+      <p class="sub">Interactively expedite revolutionary ROI after <br> bricks-and-clicks alignments.</p>
+    </div>
+    <div>
+      <img class="img-status" src="../../assets/no.png" alt="">
+    </div>
+
+    <div>
+      <h1 class="text-p">The chosen source of payment <br> is not charged</h1>
+    </div>
+
+    <div>
+      <p class="description"> <span>Declaration:</span> scale turnkey outsourcing after multidisciplinary leadership
+        skills.
+        Interactively engineer 24/7 paradigms vis-a-vis cross functional value. Conveniently streamline distinctive
+        bandwidth through vertical imperatives. Progressively drive. </p>
+    </div>
+
+    <div>
+      <ion-button [routerLink]="['../payment']" class="btn">Repeat</ion-button>
+    </div>
+
+  </div>
+
+</ion-content>

@@ -1,21 +1,206 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-buttons slot="start">
-      <ion-menu-button></ion-menu-button>
-    </ion-buttons>
-    <ion-title>{{ folder }}</ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content>
+  <div class="header">
+    <img class="logo" src="../../assets/logo-preto.png">
+    <ion-icon  [routerLink]="['../../cart']" class="cart" name="cart-outline"></ion-icon>
+    <ion-menu-button class="menu"></ion-menu-button>
+  </div>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">{{ folder }}</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <div>
+    <ion-searchbar class="search"></ion-searchbar>
+  </div>
 
-  <div id="container">
-    <strong class="capitalize">{{ folder }}</strong>
-    <p>Explore <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  <div>
+    <h1 class="title">
+      Branch
+    </h1>
+  </div>
+
+  <div>
+    <ion-grid>
+      <ion-row>
+
+        <ion-col size="6">
+          <ion-card class="card">
+            <ion-card-content>
+              <img class="imgs-home" src="../../assets/home1.png" alt="">
+              <h1 class="txt-empresa">
+                Kiosk
+              </h1>
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+
+        <ion-col size="6">
+          <ion-card class="card">
+            <ion-card-content>
+              <img class="imgs-home" src="../../assets/home2.png" alt="">
+              <h1 class="txt-empresa">
+                Apotheke
+              </h1>
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+
+      </ion-row>
+    </ion-grid>
+  </div>
+
+  <div>
+    <h1 class="title">
+      Best Selers
+    </h1>
+  </div>
+
+  <div style="margin-top: 20px;">
+    <ion-grid>
+      <ion-row>
+
+        <ion-col size="4">
+          <ion-card [routerLink]="['../../details']" class="card-product">
+            <ion-card-content>
+              <img class="imgs-product" src="../../assets/bebida1.png" alt="">
+              <h1 class="txt-product">
+                Absolute
+              </h1>
+              <p class="price">
+                € 7,99
+              </p>
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+
+        <ion-col size="4">
+          <ion-card [routerLink]="['../../details']" class="card-product">
+            <ion-card-content>
+              <img class="imgs-product" src="../../assets/bebida2.png" alt="">
+              <h1 class="txt-product">
+                Jack Daniels
+              </h1>
+              <p class="price">
+                € 7,99
+              </p>
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+
+        <ion-col size="4">
+          <ion-card [routerLink]="['../../details']" class="card-product">
+            <ion-card-content>
+              <img class="imgs-product" src="../../assets/bebida3.png" alt="">
+              <h1 class="txt-product">
+                Jägermeister
+              </h1>
+              <p class="price">
+                € 7,99
+              </p>
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+
+
+
+        
+        <ion-col size="4">
+          <ion-card [routerLink]="['../../details']" class="card-product">
+            <ion-card-content>
+              <img class="imgs-product" src="../../assets/bebida1.png" alt="">
+              <h1 class="txt-product">
+                Absolute
+              </h1>
+              <p class="price">
+                € 7,99
+              </p>
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+
+        <ion-col size="4">
+          <ion-card [routerLink]="['../../details']" class="card-product">
+            <ion-card-content>
+              <img class="imgs-product" src="../../assets/bebida2.png" alt="">
+              <h1 class="txt-product">
+                Jack Daniels
+              </h1>
+              <p class="price">
+                € 7,99
+              </p>
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+
+        <ion-col size="4">
+          <ion-card [routerLink]="['../../details']" class="card-product">
+            <ion-card-content>
+              <img class="imgs-product" src="../../assets/bebida3.png" alt="">
+              <h1 class="txt-product">
+                Jägermeister
+              </h1>
+              <p class="price">
+                € 7,99
+              </p>
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+
+      </ion-row>
+    </ion-grid>
+  </div>
+
+
+  <div>
+    <h1 class="title">
+      Category
+    </h1>
+  </div>
+
+  <div style="margin-bottom: 30px; margin-top: 20px;">
+    <ion-grid>
+      <ion-row>
+
+        <ion-col size="6">
+          <ion-card [routerLink]="['../../category']" class="card-category">
+            <ion-card-content>
+              <img class="imgs-category" src="../../assets/Getränke.png" alt="">
+              <h1 class="txt-category">
+                Getränke
+              </h1>
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+
+        <ion-col size="6">
+          <ion-card [routerLink]="['../../category']" class="card-category">
+            <ion-card-content>
+              <img class="imgs-category" src="../../assets/Snacks.png" alt="">
+              <h1 class="txt-category">
+                Snacks
+              </h1>
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+        <ion-col size="6">
+          <ion-card [routerLink]="['../../category']" class="card-category">
+            <ion-card-content>
+              <img class="imgs-category" src="../../assets/Getränke.png" alt="">
+              <h1 class="txt-category">
+                Getränke
+              </h1>
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+
+        <ion-col size="6">
+          <ion-card [routerLink]="['../../category']" class="card-category">
+            <ion-card-content>
+              <img class="imgs-category" src="../../assets/Snacks.png" alt="">
+              <h1 class="txt-category">
+                Snacks
+              </h1>
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+
+      </ion-row>
+    </ion-grid>
   </div>
 </ion-content>

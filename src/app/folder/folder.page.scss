@@ -1,28 +1,126 @@
-ion-menu-button {
-  color: var(--ion-color-primary);
-}
-
-#container {
-  text-align: center;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
-}
-
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-  color: #8c8c8c;
+* {
   margin: 0;
+  padding: 0;
 }
 
-#container a {
-  text-decoration: none;
+ion-content {
+  --background: #fff;
+}
+
+.header {
+  position: relative;
+}
+
+.cart {
+  top: 27px;
+  position: absolute;
+  right: 60px;
+  color: #000;
+  font-size: 30px;
+}
+
+.logo {
+  width: 30%;
+  margin-top: 30px;
+  margin-left: 35%;
+}
+
+.menu {
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  color: #000;
+  font-size: 30px;
+}
+
+.search {
+  margin-top: 30px;
+  color: #000;
+  width: 90%;
+  margin-left: 5%;
+  height: 45px !important;
+  padding: 0 10px !important;
+  border-radius: 100px !important;
+  -webkit-box-shadow: 1px 1px 4px 0px rgba(219, 219, 219, 1);
+  -moz-box-shadow: 1px 1px 4px 0px rgba(219, 219, 219, 1);
+  box-shadow: 1px 1px 4px 0px rgba(219, 219, 219, 1);
+}
+
+.title {
+  font-size: 34px;
+  color: #2D0C57;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  --background: #fff;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 10px !important;
+
+}
+
+.imgs-home {
+ width: 100%;
+
+}
+
+.txt-empresa {
+  font-size: 18px;
+  font-weight: bold;
+  color: #2D0C57;
+}
+
+.txt-product {
+  font-size: 11px;
+  font-weight: bold;
+  color: #2D0C57;
+  margin-top: 5px;
+}
+
+.price{
+  font-size: 10px;
+  font-weight: 500;
+  color: #9586A8;
+  margin-top: 5px;
+}
+
+.card-product {
+  --background: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px !important;
+
+}
+
+.imgs-product {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+ }
+
+
+ .card-category {
+  --background: #fff;
+  border-radius: 15px;
+  margin: 10px !important;
+
+}
+
+.imgs-category {
+ width: 100%;
+
+}
+
+.txt-category {
+  margin: 10px 5px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #2D0C57;
+}
+
+ion-searchbar{
+  --background: #fff !important;
+  border-radius: 100px;
 }

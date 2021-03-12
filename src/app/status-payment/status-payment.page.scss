@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ion-content {
+  --background: #fff;
+}
+
+.header {
+  position: relative;
+}
+
+
+.back {
+  position: absolute;
+  left: 20px;
+  top: 30px;
+  color: #2D0C57;
+  font-size: 24px;
+}
+
+
+.cart {
+  top: 27px;
+  position: absolute;
+  right: 60px;
+  color: #000;
+  font-size: 30px;
+}
+
+.logo {
+  width: 30%;
+  margin-top: 30px;
+  margin-left: 35%;
+}
+
+.menu {
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  color: #000;
+  font-size: 30px;
+}
+
+.title {
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #252C3B;
+  text-align: center;
+}
+
+.sub {
+  margin-top: 20px;
+  font-size: 10px;
+  font-weight: 500;
+  color: #6E7A90;
+  text-align: center;
+}
+
+.img-status {
+  width: 44%;
+  margin-left: 28%;
+  margin-top: 50px;
+}
+
+.text-p {
+  margin-top: 50px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #596273;
+  text-align: center;
+}
+
+span {
+  color: #596273;
+}
+
+.description {
+  margin-top: 40px;
+  font-size: 10px;
+  font-weight: 500;
+  color: #929AA9;
+  text-align: center;
+  padding: 0 40px;
+}
+
+.btn {
+  --background: #FFD421;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  color: #000000;
+  width: 80%;
+  margin-left: 10%;
+  height: 55px;
+}

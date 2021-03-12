@@ -1,0 +1,46 @@
+<ion-content>
+  <div class="header">
+    <ion-icon [routerLink]="['../cart']" class="back" name="chevron-back-outline"></ion-icon>
+    <img class="logo" src="../../assets/logo-preto.png">
+    <ion-icon [routerLink]="['../cart']" class="cart" name="cart-outline"></ion-icon>
+    <ion-menu-button class="menu"></ion-menu-button>
+  </div>
+  <div>
+    <h1 class="title">Choose your address</h1>
+  </div>
+
+  <div class="flex">
+    <div class="card-selected">
+      <ion-icon class="check" name="checkmark-circle-outline"></ion-icon>
+      <p class="address-selected">649 Penn Street Redford, MI 48239</p>
+    </div>
+    <div class="card">
+      <p class="address"> 649 Penn Street Redford, MI 48239</p>
+    </div>
+  </div>
+
+  <div class="flex">
+    <div class="card">
+      <p class="address">649 Penn Street Redford, MI 48239</p>
+    </div>
+    <div class="card">
+      <p class="address"> 649 Penn Street Redford, MI 48239</p>
+    </div>
+  </div>
+
+
+  <div class="flex">
+    <div class="card">
+      <p class="address">649 Penn Street Redford, MI 48239</p>
+    </div>
+    <div class="card">
+      <ion-icon class="icon-add-card" name="add-circle-outline"></ion-icon>
+      <p class="add-card">Add New Address</p>
+    </div>
+  </div>
+
+  <div>
+    <ion-button [routerLink]="['../payment']" style="margin-bottom: 30px;" class="btn mg-top-20">Payment</ion-button>
+  </div>
+
+</ion-content>

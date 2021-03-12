@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ion-content {
+  --background: #fff;
+}
+
+.header {
+  position: relative;
+}
+
+
+.back {
+  position: absolute;
+  left: 20px;
+  top: 30px;
+  color: #2D0C57;
+  font-size: 24px;
+}
+
+
+.cart {
+  top: 27px;
+  position: absolute;
+  right: 60px;
+  color: #000;
+  font-size: 30px;
+}
+
+.logo {
+  width: 30%;
+  margin-top: 30px;
+  margin-left: 35%;
+}
+
+.menu {
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  color: #000;
+  font-size: 30px;
+}
+
+.title {
+  margin-top: 30px;
+  margin-left: 20px;
+  font-size: 24px;
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 30px;
+}
+
+.check {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-selected {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  width: 130px;
+  height: 120px;
+  padding: 20px;
+  background-color: #FFD421;
+  position: relative;
+}
+
+.card {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  border: 1px solid #9BA3B3;
+  width: 130px;
+  height: 120px;
+  padding: 20px;
+}
+
+.address {
+  font-size: 12px;
+  color: #000;
+}
+
+.address-selected {
+  font-size: 12px;
+  color: #fff;
+}
+
+.icon-add-card {
+  font-size: 30px;
+  width: 80%;
+  margin-left: 10%;
+  color: #000;
+}
+
+.add-card {
+  font-size: 11px;
+  text-align: center;
+  color: #000;
+}
+
+.btn {
+  margin-top: 40px;
+  color: #000000;
+  width: 80%;
+  height: 55px;
+  margin-left: 10%;
+}
+
+ion-button {
+  --background: #ffd421;
+}

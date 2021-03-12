@@ -1,0 +1,61 @@
+<ion-content>
+  <div class="header">
+    <ion-icon [routerLink]="['../folder/inbox']" class="back" name="chevron-back-outline"></ion-icon>
+    <img class="logo" src="../../assets/logo-preto.png">
+    <ion-icon [routerLink]="['../cart']" class="cart" name="cart-outline"></ion-icon>
+    <ion-menu-button class="menu"></ion-menu-button>
+  </div>
+
+  <div class="warning">
+    <div>
+      <h1 class="age">
+        18 Years +
+      </h1>
+    </div>
+    <div>
+      <h2 class="verification">
+        This product riquire age verification.
+      </h2>
+      <h3 [routerLink]="['../terms']" class="learn">Learn More.</h3>
+    </div>
+  </div>
+
+  <div>
+    <img class="img" src="../../assets/choco.png">
+  </div>
+  <div>
+    <h1 class="title">
+      Milka
+    </h1>
+    <h1 class="price">
+      € 0,99
+    </h1>
+    <p class="qtd">
+      100gr
+    </p>
+  </div>
+  <div>
+    <h2 class="sub">
+      Description
+    </h2>
+    <p class="description">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores neque similique eius excepturi tempora aliquam
+      saepe, officia aspernatur molestiae accusantium eveniet vel hic asperiores quod reiciendis temporibus alias
+      quibusdam ipsa.
+    </p>
+  </div>
+
+  <div class="flex">
+    <div>
+      <ion-button class="heart">
+        <ion-icon name="heart-outline"></ion-icon>
+      </ion-button>
+    </div>
+    <div>
+      <ion-button [routerLink]="['../cart']" class="cart-btn">
+        <ion-icon name="cart-outline"></ion-icon>
+      </ion-button>
+    </div>
+  </div>
+
+</ion-content>

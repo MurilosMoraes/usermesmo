@@ -1,0 +1,50 @@
+<ion-content>
+  <div class="header">
+    <ion-icon [routerLink]="['../cart']" class="back" name="chevron-back-outline"></ion-icon>
+    <img class="logo" src="../../assets/logo-preto.png">
+    <ion-icon [routerLink]="['../cart']" class="cart" name="cart-outline"></ion-icon>
+    <ion-menu-button class="menu"></ion-menu-button>
+  </div>
+
+  <div>
+    <img class="retangle" src="../../assets/retangle.png" alt="">
+  </div>
+
+  <div class="flex">
+    <div>
+      <h1 class="title">
+        Enter CVV
+      </h1>
+      <p class="sub">
+        Card Verification Number
+      </p>
+    </div>
+    <div>
+      <ion-input maxlength="3" class="input"></ion-input>
+    </div>
+  </div>
+
+  <div>
+    <p style="margin-top: 50px;" class="title">
+      Validated with the following options
+    </p>
+  </div>
+
+
+  <div>
+    <ion-button class="add">OTP (Security Code)
+    </ion-button>
+  </div>
+
+  <div>
+    <p class="declaration">
+      Declaration: scale turnkey outsourcing after multidisciplinary leadership skills. Interactively engineer 24/7
+      paradigms vis-a-vis cross functional value. Conveniently streamline distinctive bandwidth through vertical
+      imperatives. Progressively drive.
+    </p>
+  </div>
+
+  <div>
+    <ion-button [routerLink]="['../otp-payment']" class="btn">Buy Now</ion-button>
+  </div>
+</ion-content>
